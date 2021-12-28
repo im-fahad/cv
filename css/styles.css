@@ -211,7 +211,7 @@ a:hover {
 
 .section__item-subtitle {
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 5px;
     color: #000;
     text-decoration: none;
@@ -225,6 +225,20 @@ a:hover {
 .skills {
     width: 100%;
 }
+
+/*.skills__section{*/
+/*    width: 100%;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.skills__section:last-child{*/
+/*    margin-bottom: 0;*/
+/*}*/
+
+/*.skills__section-title{*/
+/*    margin-bottom: 10px;*/
+/*    color: #000000;*/
+/*}*/
 
 .skills__row {
     margin-bottom: -20px;
@@ -244,6 +258,11 @@ a:hover {
     padding-left: 16px;
     font-size: 13px;
     color: #000;
+    margin-bottom: 10px;
+}
+
+.skills__item:last-child{
+    margin-bottom: 0;
 }
 
 .skills__item:before {
@@ -254,6 +273,10 @@ a:hover {
     width: 8px;
     border-radius: 50%;
     background: #ed213a;
+}
+
+.skills__item strong{
+    color: #000000;
 }
 
 .projects {
@@ -274,11 +297,12 @@ a:hover {
     font-weight: 700;
     margin-bottom: 5px;
     color: #000;
+    text-decoration: none;
 }
 
 .projects__item-url {
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 5px;
     color: #000;
     text-decoration: none;
@@ -287,4 +311,27 @@ a:hover {
 .projects__item-description {
     font-size: 13px;
     color: #3d3d3d;
+}
+
+.criteria{
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.criteria__item{
+    position: relative;
+    padding-left: 16px;
+    font-size: 13px;
+}
+.criteria__item strong{
+    color: #000;
+}
+.criteria__item:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #ed213a;
 }
