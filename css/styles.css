@@ -36,11 +36,11 @@ a:hover {
 .page-wrapper {
     width: 100%;
     box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
-    height: 1123px;
+    height: 29.7cm;
 }
 
 .page-wrapper__inner {
-    padding: 50px;
+    padding: 40px;
 }
 
 .profile {
@@ -321,6 +321,7 @@ a:hover {
     position: relative;
     padding-left: 16px;
     font-size: 13px;
+    margin-bottom: 5px;
 }
 .criteria__item strong{
     color: #000;
