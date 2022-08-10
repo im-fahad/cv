@@ -30,13 +30,17 @@ a:hover {
 
 .cv-wrapper__inner {
     width: 794px;
-    transform-origin: 50% 0px;
+    transform-origin: 50% 0;
 }
 
 .page-wrapper {
     width: 100%;
     box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
     height: 29.7cm;
+    margin-bottom: 40px;
+}
+.page-wrapper:last-child{
+    margin-bottom: 0;
 }
 
 .page-wrapper__inner {
@@ -46,7 +50,7 @@ a:hover {
 .profile {
     width: 100%;
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .profile__image {
@@ -113,7 +117,7 @@ a:hover {
 
 .section {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .section:last-child {
@@ -333,6 +337,36 @@ a:hover {
     top: 5px;
     height: 8px;
     width: 8px;
+    border-radius: 50%;
+    background: #ed213a;
+}
+
+.criteria-2{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: -10px;
+    margin-bottom: -5px;
+}
+.criteria-2__item{
+    position: relative;
+    padding-left: 10px;
+    font-size: 13px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+.criteria-2__item strong{
+    color: #000;
+}
+.criteria-2__item:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 4px;
+    width: 4px;
     border-radius: 50%;
     background: #ed213a;
 }
